@@ -1,6 +1,8 @@
 package com.millsjustin.prontocodingassignment.ui
 
 import android.os.Bundle
+import android.text.SpannableStringBuilder
+import android.text.method.ScrollingMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -40,13 +42,22 @@ class MainFragment : Fragment() {
     }
 
     private fun initViews() {
+        binding.data.movementMethod = ScrollingMovementMethod.getInstance()
+        binding.buttonAdd.setOnClickListener {
+            val value = binding.textField.editText?.text?.toString()
+            binding.textField.editText?.text = SpannableStringBuilder()
+            viewModel.onClickAddNumber(value)
+        }
+        binding.buttonDone.setOnClickListener {
+            viewModel.onClickDone()
+        }
     }
 
     private fun initObservers() {
         viewLifecycleOwner.lifecycleScope.launch {
             repeatOnLifecycle(Lifecycle.State.STARTED) {
                 viewModel.uiState.collect {
-                    binding.todo.text = it.foo
+                    binding.data.text = it.data
                 }
             }
         }
