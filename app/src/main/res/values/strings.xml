@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Pronto Coding Assignment</string>
+    <string name="allowed_deviation">Allowed Deviation: %d%%</string>
+    <string name="pass">PASS</string>
+    <string name="fail">FAIL</string>
 </resources>

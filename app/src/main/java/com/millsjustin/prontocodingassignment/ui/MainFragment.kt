@@ -11,6 +11,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import androidx.navigation.fragment.findNavController
 import com.millsjustin.prontocodingassignment.databinding.FragmentMainBinding
 import kotlinx.coroutines.launch
 
@@ -49,7 +50,8 @@ class MainFragment : Fragment() {
             viewModel.onClickAddNumber(value)
         }
         binding.buttonDone.setOnClickListener {
-            viewModel.onClickDone()
+            val percentages = viewModel.onClickDone()
+            findNavController().navigate(MainFragmentDirections.mainToGraph(percentages))
         }
     }
 

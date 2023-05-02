@@ -2,6 +2,8 @@ package com.millsjustin.prontocodingassignment.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.millsjustin.prontocodingassignment.data.BenfordsLaw
+import com.millsjustin.prontocodingassignment.data.DigitPercentages
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -31,8 +33,8 @@ class MainViewModel : ViewModel() {
         _count.value += 1
     }
 
-    fun onClickDone() {
-        // TODO
+    fun onClickDone(): DigitPercentages {
+        return BenfordsLaw.calculatePercentages(_data)
     }
 
 }

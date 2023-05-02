@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <View
+        android:id="@+id/benfordsOne"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="5dp"
+        android:alpha="0.5"
+        android:background="?colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toStartOf="@id/benfordsTwo"
+        app:layout_constraintHeight_percent="0.301"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/dataOne"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="?colorSecondaryVariant"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toEndOf="@id/benfordsOne"
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintStart_toStartOf="@id/benfordsOne"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/benfordsTwo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="5dp"
+        android:alpha="0.5"
+        android:background="?colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toStartOf="@id/benfordsThree"
+        app:layout_constraintHeight_percent="0.176"
+        app:layout_constraintStart_toEndOf="@id/benfordsOne"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/dataTwo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="?colorSecondaryVariant"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toEndOf="@id/benfordsTwo"
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintStart_toStartOf="@id/benfordsTwo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/benfordsThree"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="5dp"
+        android:alpha="0.5"
+        android:background="?colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toStartOf="@id/benfordsFour"
+        app:layout_constraintHeight_percent="0.125"
+        app:layout_constraintStart_toEndOf="@id/benfordsTwo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/dataThree"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="?colorSecondaryVariant"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toEndOf="@id/benfordsThree"
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintStart_toStartOf="@id/benfordsThree"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/benfordsFour"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="5dp"
+        android:alpha="0.5"
+        android:background="?colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toStartOf="@id/benfordsFive"
+        app:layout_constraintHeight_percent="0.097"
+        app:layout_constraintStart_toEndOf="@id/benfordsThree"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/dataFour"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="?colorSecondaryVariant"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toEndOf="@id/benfordsFour"
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintStart_toStartOf="@id/benfordsFour"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/benfordsFive"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="5dp"
+        android:alpha="0.5"
+        android:background="?colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toStartOf="@id/benfordsSix"
+        app:layout_constraintHeight_percent="0.079"
+        app:layout_constraintStart_toEndOf="@id/benfordsFour"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/dataFive"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="?colorSecondaryVariant"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toEndOf="@id/benfordsFive"
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintStart_toStartOf="@id/benfordsFive"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/benfordsSix"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="5dp"
+        android:alpha="0.5"
+        android:background="?colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toStartOf="@id/benfordsSeven"
+        app:layout_constraintHeight_percent="0.067"
+        app:layout_constraintStart_toEndOf="@id/benfordsFive"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/dataSix"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="?colorSecondaryVariant"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toEndOf="@id/benfordsSix"
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintStart_toStartOf="@id/benfordsSix"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/benfordsSeven"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="5dp"
+        android:alpha="0.5"
+        android:background="?colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toStartOf="@id/benfordsEight"
+        app:layout_constraintHeight_percent="0.058"
+        app:layout_constraintStart_toEndOf="@id/benfordsSix"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/dataSeven"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="?colorSecondaryVariant"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toEndOf="@id/benfordsSeven"
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintStart_toStartOf="@id/benfordsSeven"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/benfordsEight"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="5dp"
+        android:alpha="0.5"
+        android:background="?colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toStartOf="@id/benfordsNine"
+        app:layout_constraintHeight_percent="0.051"
+        app:layout_constraintStart_toEndOf="@id/benfordsSeven"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/dataEight"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="?colorSecondaryVariant"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toEndOf="@id/benfordsEight"
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintStart_toStartOf="@id/benfordsEight"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/benfordsNine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="5dp"
+        android:alpha="0.5"
+        android:background="?colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.046"
+        app:layout_constraintStart_toEndOf="@id/benfordsEight"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <View
+        android:id="@+id/dataNine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="?colorSecondaryVariant"
+        app:layout_constraintBottom_toTopOf="@id/guideline50"
+        app:layout_constraintEnd_toEndOf="@id/benfordsNine"
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintStart_toStartOf="@id/benfordsNine"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/labelOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textAppearance="?textAppearanceHeadline3"
+        app:layout_constraintEnd_toEndOf="@id/benfordsOne"
+        app:layout_constraintStart_toStartOf="@id/benfordsOne"
+        app:layout_constraintTop_toBottomOf="@id/guideline50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textAppearance="?textAppearanceHeadline3"
+        app:layout_constraintEnd_toEndOf="@id/benfordsTwo"
+        app:layout_constraintStart_toStartOf="@id/benfordsTwo"
+        app:layout_constraintTop_toBottomOf="@id/guideline50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textAppearance="?textAppearanceHeadline3"
+        app:layout_constraintEnd_toEndOf="@id/benfordsThree"
+        app:layout_constraintStart_toStartOf="@id/benfordsThree"
+        app:layout_constraintTop_toBottomOf="@id/guideline50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textAppearance="?textAppearanceHeadline3"
+        app:layout_constraintEnd_toEndOf="@id/benfordsFour"
+        app:layout_constraintStart_toStartOf="@id/benfordsFour"
+        app:layout_constraintTop_toBottomOf="@id/guideline50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textAppearance="?textAppearanceHeadline3"
+        app:layout_constraintEnd_toEndOf="@id/benfordsFive"
+        app:layout_constraintStart_toStartOf="@id/benfordsFive"
+        app:layout_constraintTop_toBottomOf="@id/guideline50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:textAppearance="?textAppearanceHeadline3"
+        app:layout_constraintEnd_toEndOf="@id/benfordsSix"
+        app:layout_constraintStart_toStartOf="@id/benfordsSix"
+        app:layout_constraintTop_toBottomOf="@id/guideline50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:textAppearance="?textAppearanceHeadline3"
+        app:layout_constraintEnd_toEndOf="@id/benfordsSeven"
+        app:layout_constraintStart_toStartOf="@id/benfordsSeven"
+        app:layout_constraintTop_toBottomOf="@id/guideline50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:textAppearance="?textAppearanceHeadline3"
+        app:layout_constraintEnd_toEndOf="@id/benfordsEight"
+        app:layout_constraintStart_toStartOf="@id/benfordsEight"
+        app:layout_constraintTop_toBottomOf="@id/guideline50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:textAppearance="?textAppearanceHeadline3"
+        app:layout_constraintEnd_toEndOf="@id/benfordsNine"
+        app:layout_constraintStart_toStartOf="@id/benfordsNine"
+        app:layout_constraintTop_toBottomOf="@id/guideline50" />
+
+    <TextView
+        android:id="@+id/allowedDeviation"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginVertical="24dp"
+        android:autoSizeTextType="uniform"
+        android:textAppearance="?textAppearanceBody1"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toStartOf="@id/buttonDecrement"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labelOne"
+        tools:text="Allowed Deviation: 5%" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonDecrement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dec"
+        app:icon="@drawable/ic_remove"
+        app:layout_constraintBottom_toBottomOf="@id/allowedDeviation"
+        app:layout_constraintEnd_toStartOf="@id/buttonIncrement"
+        app:layout_constraintStart_toEndOf="@id/allowedDeviation"
+        app:layout_constraintTop_toTopOf="@id/allowedDeviation" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonIncrement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inc"
+        app:icon="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="@id/allowedDeviation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/buttonDecrement"
+        app:layout_constraintTop_toTopOf="@id/allowedDeviation" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="?textAppearanceHeadline1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/allowedDeviation"
+        tools:text="FAIL" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
