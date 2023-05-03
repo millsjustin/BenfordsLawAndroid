@@ -53,6 +53,9 @@ class MainFragment : Fragment() {
             val percentages = viewModel.onClickDone()
             findNavController().navigate(MainFragmentDirections.mainToGraph(percentages))
         }
+        binding.buttonClear.setOnClickListener {
+            viewModel.onClickClear()
+        }
     }
 
     private fun initObservers() {

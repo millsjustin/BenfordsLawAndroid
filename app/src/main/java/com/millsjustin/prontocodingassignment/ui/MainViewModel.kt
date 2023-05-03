@@ -37,4 +37,9 @@ class MainViewModel : ViewModel() {
         return BenfordsLaw.calculatePercentages(_data)
     }
 
+    fun onClickClear() {
+        _data.clear()
+        _count.value = 0
+    }
+
 }
